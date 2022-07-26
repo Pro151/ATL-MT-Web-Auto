@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="" value=""></parameter>
+
+    <listeners>
+        <listener class-name="test.java.Listeners"/>
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto">
+        <groups>
+            <run>
+                <include name="sanity"/>
+
+            </run>
+
+        </groups>
+        <classes>
+            <class name="main.java.BetaATLMTwebPageClicks.ButtonAndLinksClickable"/>
+
+
+            <class name="main.java.ConfigFile.ConfigAuto">
+
+            </class>
+            <class name="main.java.Login2FA.TwoFactorAuthAuto">
+
+            </class>
+            <class name="main.java.Login.ForgotPassword">
+
+            </class>
+            <class name="main.java.Login.LoginAuto">
+
+            </class>
+            <class name="main.java.Registration2FA.RegisterNewUser2FAAuto">
+
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
