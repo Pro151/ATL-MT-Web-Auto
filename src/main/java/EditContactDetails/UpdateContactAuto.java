@@ -28,6 +28,8 @@ public class UpdateContactAuto extends ConfigAuto {
         driver.findElement(By.xpath("//*[@id=\"userDropdown\"]/span[2]")).click();
         try {
 
+
+
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
