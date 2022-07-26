@@ -21,6 +21,8 @@ public class UpdateContactAuto extends ConfigAuto {
             throw new RuntimeException(e);
         }
 
+
+
         driver.findElement(By.id("email")).sendKeys("qa222@yopmail.com");
         driver.findElement(By.id("inputPassword")).sendKeys("Qa123!@");
         driver.findElement(By.xpath("//i[@id='eye']")).click();
