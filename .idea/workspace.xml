@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithDisable2FA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithEnable2FA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataDrivenMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataDrivenTestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_123.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientAccountTx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientAccountTx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientMobileWallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientMobileWallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientOTCCashTx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientOTCCashTx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAuto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
