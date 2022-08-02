@@ -29,7 +29,11 @@
                     <include name="OTCCashTrans"/>
                 </methods>
             </class>
-            <class name="main.java.Login.LoginAuto">
+                <!--<methods>
+                    <include name=""/>
+                </methods>
+            </class>-->
+            <!--<class name="main.java.Login.LoginAuto">
                 <methods>
                     <include name="loginA"/>
                 </methods>
@@ -48,7 +52,7 @@
                 <methods>
                     <include name="FrgtPwd"/>
                 </methods>
-            </class>
+            </class>-->
 
 
 

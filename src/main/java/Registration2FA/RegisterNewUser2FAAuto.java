@@ -48,7 +48,7 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        WebElement msg=null;
+        WebElement msg = null;
         String text = "";
         String expectedText = "Oops! something wasn't correct";
         if (driver.getTitle().toString().equals("Register")) {
@@ -76,7 +76,6 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
         driver.quit();
-
 
     }
 

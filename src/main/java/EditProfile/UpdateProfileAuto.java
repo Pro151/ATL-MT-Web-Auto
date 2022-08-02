@@ -21,7 +21,7 @@ public class UpdateProfileAuto extends ConfigAuto {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        driver.findElement(By.id("email")).sendKeys("qa222@yopmail.com");
+        driver.findElement(By.id("email")).sendKeys("q2@yopmail.com");
         driver.findElement(By.id("inputPassword")).sendKeys("Qa123!@");
         driver.findElement(By.xpath("//i[@id='eye']")).click();
         driver.findElement(By.className("btn-login")).click();
