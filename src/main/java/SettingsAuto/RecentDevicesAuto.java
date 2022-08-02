@@ -6,10 +6,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class SettingsAutoWithDisable2FA extends ConfigAuto {
+public class RecentDevicesAuto extends ConfigAuto {
 
     @Test
-    public void settingsAutoDIsable2FA() {
+    public void deviceAuto() {
 
         WebDriver driver = configAuto1();
         System.out.println(driver.getTitle());
@@ -25,21 +25,6 @@ public class SettingsAutoWithDisable2FA extends ConfigAuto {
         driver.findElement(By.xpath("//i[@id='eye']")).click();
         driver.findElement(By.className("btn-login")).click();
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        //reset pin
-        driver.findElement(By.xpath("/html/body/main/div/div/div/div/div/div[2]/div/div/div/a")).click();
-        driver.navigate().back();
-
-        //final 2FA
-        for (int i = 0; i <= 4; i++) {
-
-            driver.findElement(By.xpath("//button[@data-value=\"0\"]")).click();
-        }
-        driver.findElement(By.xpath("//*[@id=\"two-fa-form\"]/table/tbody/tr[5]/td[4]/button")).click();
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -80,23 +65,23 @@ public class SettingsAutoWithDisable2FA extends ConfigAuto {
         //save changes
         driver.findElement(By.xpath("//*[@id=\"preferences-form\"]/div[2]/div/button")).click();
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+        //Recent devices
+        driver.findElement(By.id("pills-devices-tab")).click();
+        driver.findElement(By.linkText("See All")).click();
+
+        //Scroll down
+
+        for (int j = 0; j <= 15; j++) {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.scrollBy(0,350)", "");
         }
-        //2FA
-        driver.findElement(By.xpath("//*[@id=\"pills-verification-tab\"]")).click();
-        driver.findElement(By.xpath("//*[@id=\"pills-verification\"]/div/div/div/a")).click();
 
-        //disable 2FA or change 2FA pin
-
-        driver.findElement(By.xpath("//button[@data-target=\"#turnOffModal\"]")).click();
-        //Scroll code
-        //JavascriptExecutor js = (JavascriptExecutor) driver;
-        //js.executeScript("window.scrollBy(0,250)", "");
-        driver.findElement(By.xpath("//*[@id=\"turnOffModal\"]/div/form/div[2]/div[2]/div/button[2]")).click();
-
+        driver.navigate().back();
         driver.quit();
     }
 }

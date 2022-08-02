@@ -116,7 +116,7 @@ public class DataDrivenMethod {
         int sheets=workbook.getNumberOfSheets();
         for(int i=0;i<sheets;i++)
         {
-            if(workbook.getSheetName(i).equalsIgnoreCase("Test_Case_ID"))
+            if(workbook.getSheetName(i).equalsIgnoreCase("Sheet1"))
             {
                 XSSFSheet sheet=workbook.getSheetAt(i);
 //Identify Testcases coloum by scanning the entire 1st row
@@ -130,7 +130,7 @@ public class DataDrivenMethod {
                 {
                     Cell value=ce.next();
 
-                    if(value.getStringCellValue().equalsIgnoreCase("Test_Case_ID"))
+                    if(value.getStringCellValue().equalsIgnoreCase("Test_case_ID"))
                     {
                         coloumn=k;
 

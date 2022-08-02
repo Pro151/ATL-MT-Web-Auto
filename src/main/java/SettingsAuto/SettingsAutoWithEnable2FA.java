@@ -100,6 +100,7 @@ public class SettingsAutoWithEnable2FA extends ConfigAuto {
 
         driver.findElement(By.xpath("//*[@id=\"two-fa-form\"]/table/tbody/tr[5]/td[4]/button")).click();
 
+        driver.quit();
 
     }
 }
