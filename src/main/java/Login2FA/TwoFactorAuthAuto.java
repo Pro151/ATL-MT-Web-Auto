@@ -1,7 +1,6 @@
 package main.java.Login2FA;
 
 
-import main.java.ConfigFile.ConfigAuto;
 import main.java.Login.LoginAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

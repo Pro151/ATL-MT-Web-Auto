@@ -1,6 +1,6 @@
 package main.java.SettingsAuto;
 
-import main.java.ConfigFile.ConfigAuto;
+import Utilities.ConfigAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

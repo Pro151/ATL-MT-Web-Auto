@@ -4,7 +4,7 @@
     <parameter name="" value=""></parameter>
 
     <listeners>
-        <listener class-name="test.java.Listeners"/>
+        <listener class-name="Utilities.Listeners"/>
     </listeners>
 
 
@@ -20,7 +20,7 @@
             <class name="main.java.BetaATLMTwebPageClicks.ButtonAndLinksClickable"/>
 
 
-            <class name="main.java.ConfigFile.ConfigAuto">
+            <class name="Utilities.ConfigAuto">
 
             </class>
             <class name="main.java.Login2FA.TwoFactorAuthAuto">

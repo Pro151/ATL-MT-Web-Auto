@@ -1,11 +1,10 @@
 package main.java.AddRecipientAuto;
 
-import main.java.ConfigFile.ConfigAuto;
+import Utilities.ConfigAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import test.java.DataDrivenMethod;
+import Utilities.DataDrivenMethod;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,14 +1,12 @@
 package main.java.DocumentUploadVerificationAuto;
 
-import main.java.ConfigFile.ConfigAuto;
+import Utilities.ConfigAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.LocalFileDetector;
 import org.testng.annotations.Test;
 
 import java.awt.*;
-import java.awt.datatransfer.StringSelection;
 import java.io.File;
 
 public class DocUploadVerifyAuto extends ConfigAuto {

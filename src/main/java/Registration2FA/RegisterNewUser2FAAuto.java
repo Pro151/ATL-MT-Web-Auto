@@ -1,18 +1,15 @@
 package main.java.Registration2FA;
 
-import main.java.ConfigFile.ConfigAuto;
-import main.java.Login.LoginAuto;
+import Utilities.ConfigAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import test.java.DataDrivenMethod;
+import Utilities.DataDrivenMethod;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class RegisterNewUser2FAAuto extends ConfigAuto {
 

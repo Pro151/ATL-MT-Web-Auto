@@ -5,19 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Utilities/TakeScreenShots.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientAccountTx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientAccountTx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientMobileWallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientMobileWallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientOTCCashTx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientOTCCashTx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/ConfigAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashboardAuto/DashboardAutomationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashboardAuto/DashboardAutomationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DocumentUploadVerificationAuto/DocUploadVerifyAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DocumentUploadVerificationAuto/DocUploadVerifyAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/ForgotPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main1/MainClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main1/MainClass2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SettingsAuto/RecentDevicesAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/RecentDevicesAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithDisable2FA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithDisable2FA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithEnable2FA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithEnable2FA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DataDrivenMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDrivenMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CompleteFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CompleteFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataDrivenMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/DataDrivenMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DataDrivenTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDrivenTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExistingUserCompleteFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExistingUserCompleteFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GlobalEnvVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/GlobalEnvVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngLogin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngNew.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngNew.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngParameterizing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngParameterizing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngSanity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngSanity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_123.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_123.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +55,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Utilities/ConfigAuto.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

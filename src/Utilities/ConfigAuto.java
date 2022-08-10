@@ -1,10 +1,10 @@
-package main.java.ConfigFile;
+package Utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import test.java.DataDrivenMethod;
+import Utilities.DataDrivenMethod;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;

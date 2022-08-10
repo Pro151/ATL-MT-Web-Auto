@@ -1,9 +1,9 @@
 package main.java.EditRecipientAuto;
 
-import main.java.ConfigFile.ConfigAuto;
+import Utilities.ConfigAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import test.java.DataDrivenMethod;
+import Utilities.DataDrivenMethod;
 
 import java.io.IOException;
 import java.util.ArrayList;

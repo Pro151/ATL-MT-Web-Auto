@@ -1,6 +1,6 @@
 package test.java;
 
-import main.java.ConfigFile.ConfigAuto;
+import Utilities.ConfigAuto;
 
 public class ExistingUserCompleteFlow extends ConfigAuto {
 

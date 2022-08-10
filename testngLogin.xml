@@ -3,7 +3,7 @@
 <suite name="Regression Test Suit" parallel="tests" thread-count="2">
 
     <listeners>
-        <listener class-name="test.java.Listeners"/>
+        <listener class-name="Utilities.Listeners"/>
     </listeners>
 
 

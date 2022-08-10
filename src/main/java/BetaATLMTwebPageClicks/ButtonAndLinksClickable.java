@@ -1,12 +1,11 @@
 package main.java.BetaATLMTwebPageClicks;
 
-import main.java.ConfigFile.ConfigAuto;
+import Utilities.ConfigAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class ButtonAndLinksClickable extends ConfigAuto {
