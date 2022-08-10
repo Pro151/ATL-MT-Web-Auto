@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/RecentDevicesAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientAccountTx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientAccountTx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientMobileWallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientMobileWallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithDisable2FA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithDisable2FA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithEnable2FA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAutoWithEnable2FA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DataDrivenMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDrivenMethod.java" afterDir="false" />
@@ -58,31 +64,18 @@
       <recent name="C:\Users\Promit\Downloads\Test\Projects\ATL MT\ATLMoneyWebAuto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataDrivenTestDemo">
-    <configuration name="DataDrivenTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.java.DataDrivenTestDemo" />
+  <component name="RunManager" selected="TestNG.AddRecipientMobileWallet.addRecipientAuto">
+    <configuration name="AddRecipientAccountTx.AccountTx" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATL-Money-Web-Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.*" />
+          <option name="PATTERN" value="main.java.AddRecipientAuto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecentDevicesAuto.deviceAuto" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATL-Money-Web-Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.SettingsAuto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.SettingsAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.SettingsAuto.RecentDevicesAuto" />
-      <option name="METHOD_NAME" value="deviceAuto" />
+      <option name="PACKAGE_NAME" value="main.java.AddRecipientAuto" />
+      <option name="MAIN_CLASS_NAME" value="main.java.AddRecipientAuto.AddRecipientAccountTx" />
+      <option name="METHOD_NAME" value="AccountTx" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,17 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SettingsAutoWithDisable2FA.settingsAutoDIsable2FA" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddRecipientMobileWallet.addRecipientAuto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATL-Money-Web-Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.SettingsAuto.*" />
+          <option name="PATTERN" value="main.java.AddRecipientAuto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.SettingsAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.SettingsAuto.SettingsAutoWithDisable2FA" />
-      <option name="METHOD_NAME" value="settingsAutoDIsable2FA" />
+      <option name="PACKAGE_NAME" value="main.java.AddRecipientAuto" />
+      <option name="MAIN_CLASS_NAME" value="main.java.AddRecipientAuto.AddRecipientMobileWallet" />
+      <option name="METHOD_NAME" value="addRecipientAuto" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,17 +101,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SettingsAutoWithEnable2FA.SettingsAutoMain (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ButtonAndLinksClickable.clickableAuto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATL-Money-Web-Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.SettingsAuto.*" />
+          <option name="PATTERN" value="main.java.BetaATLMTwebPageClicks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.SettingsAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.SettingsAuto.SettingsAutoWithEnable2FA" />
-      <option name="METHOD_NAME" value="SettingsAutoMain" />
+      <option name="PACKAGE_NAME" value="main.java.BetaATLMTwebPageClicks" />
+      <option name="MAIN_CLASS_NAME" value="main.java.BetaATLMTwebPageClicks.ButtonAndLinksClickable" />
+      <option name="METHOD_NAME" value="clickableAuto" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,17 +119,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SettingsAutoWithEnable2FA.SettingsAutoMain" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterNewUser2FAAuto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATL-Money-Web-Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.SettingsAuto.*" />
+          <option name="PATTERN" value="main.java.Registration2FA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.SettingsAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.SettingsAuto.SettingsAutoWithEnable2FA" />
-      <option name="METHOD_NAME" value="SettingsAutoMain" />
+      <option name="PACKAGE_NAME" value="main.java.Registration2FA" />
+      <option name="MAIN_CLASS_NAME" value="main.java.Registration2FA.RegisterNewUser2FAAuto" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterNewUser2FAAuto.RegisterAuto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATL-Money-Web-Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Registration2FA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.Registration2FA" />
+      <option name="MAIN_CLASS_NAME" value="main.java.Registration2FA.RegisterNewUser2FAAuto" />
+      <option name="METHOD_NAME" value="RegisterAuto" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataDrivenTestDemo" />
-        <item itemvalue="TestNG.RecentDevicesAuto.deviceAuto" />
-        <item itemvalue="TestNG.SettingsAutoWithDisable2FA.settingsAutoDIsable2FA" />
-        <item itemvalue="TestNG.SettingsAutoWithEnable2FA.SettingsAutoMain" />
-        <item itemvalue="TestNG.SettingsAutoWithEnable2FA.SettingsAutoMain (1)" />
+        <item itemvalue="TestNG.AddRecipientMobileWallet.addRecipientAuto" />
+        <item itemvalue="TestNG.AddRecipientAccountTx.AccountTx" />
+        <item itemvalue="TestNG.RegisterNewUser2FAAuto" />
+        <item itemvalue="TestNG.RegisterNewUser2FAAuto.RegisterAuto" />
+        <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto" />
       </list>
     </recent_temporary>
   </component>

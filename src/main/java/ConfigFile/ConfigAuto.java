@@ -4,18 +4,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import test.java.DataDrivenMethod;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class ConfigAuto {
 
     @Test
-    public WebDriver configAuto1() {
+    public static WebDriver configAuto1() {
 
         System.setProperty("webdriver.chrome.driver",
-                "C:\\Users\\Promit\\Downloads\\Softwares\\chromedriver_win32\\chromedriver.exe");
+                "C:\\Users\\Promit\\Downloads\\Softwares\\chromedriver_win32\\chromedriver_win32\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -45,6 +48,21 @@ public class ConfigAuto {
         robot.keyRelease(java.awt.event.KeyEvent.VK_CONTROL);
         Thread.sleep(3000);
         robot.keyPress(java.awt.event.KeyEvent.VK_ENTER);
+    }
+
+    public  void loginA() throws IOException {
+
+        WebDriver driver = configAuto1();
+        DataDrivenMethod dd = new DataDrivenMethod();
+        ArrayList login1 = dd.getData("Login_1", "Login");
+        ArrayList pwd1 = dd.getData("Password_2", "Login");
+        System.out.println(driver.getTitle());
+        System.out.println(driver.getCurrentUrl());
+        driver.findElement(By.className("login-btn")).click();
+        driver.findElement(By.id("email")).sendKeys((CharSequence) login1.get(1));
+        driver.findElement(By.id("inputPassword")).sendKeys((CharSequence) pwd1.get(1));
+        driver.findElement(By.xpath("//i[@id='eye']")).click();
+        driver.findElement(By.className("btn-login")).click();
     }
 
 }

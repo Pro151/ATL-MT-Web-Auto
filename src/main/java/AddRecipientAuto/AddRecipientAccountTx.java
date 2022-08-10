@@ -5,69 +5,79 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import test.java.DataDrivenMethod;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class AddRecipientAccountTx extends ConfigAuto {
 
-    @Test(dataProvider = "dataProviderRecipientAccountTx")
-    public void AccountTx(String fname, String lname, String acno, String mno) {
+    @Test
+    public void AccountTx() throws IOException {
 
         WebDriver driver = configAuto1();
+        DataDrivenMethod dd = new DataDrivenMethod();
+        ArrayList login1 = dd.getData("Login_1", "Login");
+        ArrayList pwd1 = dd.getData("Password_2", "Login");
+        ArrayList fname1 = dd.getData("F_name", "Add_recipient");
+        ArrayList lname1 = dd.getData("L_name", "Add_recipient");
+        ArrayList acno1 = dd.getData("Ac_no", "Add_recipient");
+        ArrayList sco1 = dd.getData("sco", "Add_recipient");
+        ArrayList pno1 = dd.getData("M_no", "Add_recipient");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
         driver.findElement(By.className("login-btn")).click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        driver.findElement(By.id("email")).sendKeys("q2@yopmail.com");
-        driver.findElement(By.id("inputPassword")).sendKeys("Qa123!@");
+        driver.findElement(By.id("email")).sendKeys((CharSequence) login1.get(1));
+        driver.findElement(By.id("inputPassword")).sendKeys((CharSequence) pwd1.get(1));
         driver.findElement(By.xpath("//i[@id='eye']")).click();
         driver.findElement(By.className("btn-login")).click();
 
-        driver.findElement(By.xpath("//*[@id=\"wrapper\"]/ul/li[3]/a")).click();
-        driver.findElement(By.xpath("//*[@id=\"content\"]/section/div/div/div/div/div/div[1]/div/h4[2]/a")).click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
 
-        driver.findElement(By.xpath("//*[@id=\"countryList\"]/div[17]/div/a")).click();
-        driver.findElement(By.xpath("//*[@id=\"content\"]/section/div/div/div/div/div/div[2]/div[1]/a/div")).click();
-        driver.findElement(By.id("first-name")).sendKeys(fname);
-        driver.findElement(By.id("last-name")).sendKeys(lname);
-        driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[4]/div/div/div[1]")).click();
-        driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[4]/div/div/div[2]/div[1]")).click();
-        driver.findElement(By.id("account-number")).sendKeys(acno);
-        driver.findElement(By.id("sortcode")).sendKeys("4546");
-        driver.findElement(By.id("mobile-number-number")).sendKeys(mno);
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[8]/div/div/div[1]")).click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[8]/div/div/div[2]/div[2]")).click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[9]/div/button")).click();
+        for (int k = 1; k <= 5; k++) {
 
+            driver.findElement(By.xpath("//*[@id=\"wrapper\"]/ul/li[3]/a")).click();
+            driver.findElement(By.xpath("//*[@id=\"content\"]/section/div/div/div/div/div/div[1]/div/h4[2]/a")).click();
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+
+            driver.findElement(By.xpath("//*[@id=\"countryList\"]/div[17]/div/a")).click();
+            driver.findElement(By.xpath("//*[@id=\"content\"]/section/div/div/div/div/div/div/div[2]/div[1]/a/div/h6")).click();
+            driver.findElement(By.id("first-name")).sendKeys((CharSequence) fname1.get(k));
+            driver.findElement(By.id("last-name")).sendKeys((CharSequence) lname1.get(k));
+            driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[4]/div/div/div[1]")).click();
+            driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[4]/div/div/div[2]/div[1]")).click();
+            driver.findElement(By.id("account-number")).sendKeys((CharSequence) acno1.get(k));
+            driver.findElement(By.id("sortcode")).sendKeys((CharSequence) sco1.get(k));
+            driver.findElement(By.id("mobile-number-number")).sendKeys((CharSequence) pno1.get(k));
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[8]/div/div/div[1]")).click();
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[8]/div/div/div[2]/div[2]")).click();
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            driver.findElement(By.xpath("//*[@id=\"profile-form\"]/div[2]/div[9]/div/button")).click();
+        }
         driver.quit();
 
     }
 
 
-    @DataProvider
+    /*@DataProvider
     public Object[][] dataProviderRecipientAccountTx() {
 
 
@@ -100,5 +110,5 @@ public class AddRecipientAccountTx extends ConfigAuto {
 
 
         return data1;
-    }
+    }*/
 }

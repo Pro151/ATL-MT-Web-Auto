@@ -8,15 +8,22 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import test.java.DataDrivenMethod;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class RegisterNewUser2FAAuto extends ConfigAuto {
 
-    @Test(dataProvider = "dataProvider1")
-    public void RegisterAuto(String uname1, String Pwd1, String CPwd1) {
+    @Test
+    public void RegisterAuto() throws IOException {
 
         WebDriver driver = configAuto1();
+        DataDrivenMethod dd = new DataDrivenMethod();
+        ArrayList login1 = dd.getData("Login_1", "Registration");
+        ArrayList pwd1 = dd.getData("Password_2", "Registration");
+        ArrayList cpwd = dd.getData("Confirm_Password_3", "Registration");
         driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/nav/ul[2]/li[1]/a")).click();
 
         try {
@@ -36,10 +43,10 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        driver.findElement(By.id("email")).sendKeys(uname1);
-        driver.findElement(By.id("password")).sendKeys(Pwd1);
+        driver.findElement(By.id("email")).sendKeys((CharSequence) login1.get(1));
+        driver.findElement(By.id("password")).sendKeys((CharSequence) pwd1.get(1));
         driver.findElement(By.xpath("//i[@id='eye2']")).click();
-        driver.findElement(By.id("confirm-password")).sendKeys(CPwd1);
+        driver.findElement(By.id("confirm-password")).sendKeys((CharSequence) cpwd.get(1));
         driver.findElement(By.xpath("//i[@id='eye3']")).click();
         driver.findElement(By.className("btn-register")).click();
 
@@ -79,7 +86,7 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
 
     }
 
-    @DataProvider
+   /* @DataProvider
     public Object[][] dataProvider1() {
 
 
@@ -96,7 +103,7 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         data1[0][0] = "q8481899452@yopmail.com";
         data1[0][1] = "Qa123!";
         data1[0][2] = "Qa123!";
-        /*//2nd set
+        2nd set
         data1[1][0] = "q88222@yopmail.com";
         data1[1][1] = "Qa123!";
         data1[1][2] = "Qa123!";
@@ -148,11 +155,11 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
-        }*/
+        }
         return data1;
-
+*/
 
     }
 
 
-}
+

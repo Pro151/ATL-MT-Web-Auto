@@ -82,13 +82,20 @@ public class ButtonAndLinksClickable extends ConfigAuto {
 
         //Clicks & opening money transfer guidelines
 
-        driver.findElement(By.xpath("//*[@id=\"faq\"]/div/div[2]/div/div/ul/li[1]/a")).click();
-        try {
+
+        for(int j=0;j<=4;j++){
+
+            driver.findElement(By.xpath("//*[@id=\"faq\"]/div/div[1]/div[2]/div/ul/li["+j+"]/a")).click();
+
+        }
+
+        /*try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        driver.findElement(By.xpath("//*[@id=\"faq\"]/div/div[2]/div/div/ul/li[2]/a ")).click();
+        driver.findElement(By.xpath("//*[@id=\"faq\"]/div/div[1]/div[2]/div/ul/li[2]/a")).click();
+
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
@@ -101,6 +108,8 @@ public class ButtonAndLinksClickable extends ConfigAuto {
             throw new RuntimeException(e);
         }
         driver.findElement(By.xpath("//*[@id=\"faq\"]/div/div[2]/div/div/ul/li[4]/a")).click();
+
+         */
 
         try {
             Thread.sleep(2000);
