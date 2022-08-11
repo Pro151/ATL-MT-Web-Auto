@@ -14,7 +14,7 @@
                     <include name="clickableAuto"/>
                 </methods>
             </class>-->
-            <class name="main.java.AddRecipientAuto.AddRecipientAccountTx">
+            <!--<class name="main.java.AddRecipientAuto.AddRecipientAccountTx">
                 <methods>
                     <include name="AccountTx"/>
                 </methods>
@@ -23,7 +23,7 @@
                 <methods>
                     <include name="addRecipientAuto"/>
                 </methods>
-            </class>
+            </class>-->
             <class name="main.java.AddRecipientAuto.AddRecipientOTCCashTx">
                 <methods>
                     <include name="OTCCashTrans"/>

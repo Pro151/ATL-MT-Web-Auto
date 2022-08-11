@@ -4,6 +4,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import java.io.IOException;
+
 public class Listeners implements ITestListener {
 
     @Override
@@ -27,6 +29,12 @@ public class Listeners implements ITestListener {
         // TODO Auto-generated method stub
         //ITestListener.super.onTestFailure(result);
         System.out.println("Test case failed" +"_"+result.getName());
+
+        try {
+            ScreenshotPicker.takeScreenshot(result.getName());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
