@@ -9,7 +9,7 @@
 
     <test verbose="2" preserve-order="true" name="C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto">
         <classes>
-           <!-- <class name="main.java.BetaATLMTwebPageClicks.ButtonAndLinksClickable">
+           <!--<class name="main.java.BetaATLMTwebPageClicks.ButtonAndLinksClickable">
                 <methods>
                     <include name="clickableAuto"/>
                 </methods>

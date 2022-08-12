@@ -30,11 +30,15 @@ public class Listeners implements ITestListener {
         //ITestListener.super.onTestFailure(result);
         System.out.println("Test case failed" +"_"+result.getName());
 
-        try {
-            ScreenshotPicker.takeScreenshot(result.getName());
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        if(result.getStatus() == ITestResult.FAILURE){
+
+            try {
+                ScreenshotPicker.takeScreenshot(result.getName());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
+
     }
 
     @Override
