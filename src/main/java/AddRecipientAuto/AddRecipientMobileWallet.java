@@ -14,6 +14,7 @@ public class AddRecipientMobileWallet extends ConfigAuto {
     @Test
     public void addRecipientAuto() throws IOException {
 
+
         WebDriver driver = configAuto1();
         DataDrivenMethod dd = new DataDrivenMethod();
         ArrayList login1 = dd.getData("Login_1", "Login");

@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientOTCCashTx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientOTCCashTx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_123.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_123.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
